@@ -1,2 +1,2 @@
 # Course notes
-## Julia Programming for Nervous Beginners
+## (for Julia Programming for Nervous Beginners)
