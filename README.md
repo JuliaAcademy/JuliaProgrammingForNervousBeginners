@@ -4,9 +4,9 @@ A course for people who have never programmed, and who are unsure whether they a
 
 We are guided by three slogans:
 
-#### Small Steps
-#### Nothing Left Out
-#### Everything Makes Sense
+- #### Small Steps
+- #### Nothing Left Out
+- #### Everything Makes Sense
 
 ### Why Julia?
 
