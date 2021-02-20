@@ -14,7 +14,8 @@ Mainly because we love it, but we also think that Julia is well suited to the ve
 
 Of course, this ability to combine powerful and compact code with high levels of detailed programming is one of the reasons why Julia can be used for development as well as production. Put another way, it can be used for rapid prototyping and then deployed in very large projects with little or no change to the code. Perhaps even more important is the high frequency of code re-use all over Julia, even across apparently unrelated projects, but that is an advanced topic beyond the scope of this course.
 
-For now, the course consists of two sources: the video material on YouTube (link to follow) and the lesson notes in the Course Materials folder. Four weeks of lessons, one video and one pdf per lesson. Of course, you need to do the whole course in exactly four weeks; take more or less time, as you prefer or need to.
+For now, the course consists of two sources: the [video material on YouTube](https://www.youtube.com/playlist?list=PLP8iPy9hna6Qpx0MgGyElJ5qFlaIXYf1R)
+ and the lesson notes in the Course Materials folder. Four weeks of lessons, one video and one pdf per lesson. Of course, you need to do the whole course in exactly four weeks; take more or less time, as you prefer or need to.
 
 In due course, we hope also to make available exercises and other materials (assessments? ANKI decks?).
 
@@ -26,6 +27,3 @@ We are aware that nervous beginners might not be confident they can dive right i
 ### COLLABORATION
 
 We would love your participation (see IfYouWantToContribute subdirectory). if you have any suggestions, just submit a pull request!
-
-
-Here's a [link to a url](https://rcweb.dartmouth.edu/doc/texmf-dist/doc/latex/verse/verse.pdf)
