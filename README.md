@@ -21,7 +21,7 @@ In due course, we hope also to make available exercises and other materials (ass
 
 ## BEFORE YOU START
 
-We are aware that nervous beginners might not be confident they can dive right in. To make sure that you are ready to start Lesson 1 of Week 1, we have included a Lesson 0 here (that is, it is not part of Course Material) and of course [it has a video also](https://www.youtube.com/watch?v=ub3tqCWZmo4&list=PLP8iPy9hna6Qpx0MgGyElJ5qFlaIXYf1R).
+We are aware that nervous beginners might not be confident they can dive right in. To make sure that you are ready to start Lesson 1 of Week 1, we have included `BeforeYouStartThisCourse.pdf` here (that is, it is not part of Course Material) and of course [it has a video also](https://www.youtube.com/watch?v=ub3tqCWZmo4&list=PLP8iPy9hna6Qpx0MgGyElJ5qFlaIXYf1R). Even if you are confidently ready to do this course, it would be a good idea to open the document (it's in the list at the top of this screen) as well as the video, so that you can see how we coordinate the text and the video presentations on this course.
 
 
 ### COLLABORATION
