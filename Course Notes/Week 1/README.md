@@ -11,3 +11,19 @@ At the end of this week (which of course might take you longer or shorter than a
 
 [Lesson 2](https://www.youtube.com/watch?v=60pReAo0kL0&list=PLP8iPy9hna6Qpx0MgGyElJ5qFlaIXYf1R&index=3)
 
+[Lesson 3](https://www.youtube.com/watch?v=60pReAo0kL0&list=PLP8iPy9hna6Qpx0MgGyElJ5qFlaIXYf1R&index=4)
+
+[Lesson 4](https://www.youtube.com/watch?v=L0TDqQCHigg&list=PLP8iPy9hna6Qpx0MgGyElJ5qFlaIXYf1R&index=5)
+
+[Lesson 5](https://www.youtube.com/watch?v=60pReAo0kL0&list=PLP8iPy9hna6Qpx0MgGyElJ5qFlaIXYf1R&index=6)
+
+[Lesson 6](https://www.youtube.com/watch?v=60pReAo0kL0&list=PLP8iPy9hna6Qpx0MgGyElJ5qFlaIXYf1R&index=7)
+
+[Lesson 7](https://www.youtube.com/watch?v=L0TDqQCHigg&list=PLP8iPy9hna6Qpx0MgGyElJ5qFlaIXYf1R&index=8)
+
+[Lesson 8](https://www.youtube.com/watch?v=60pReAo0kL0&list=PLP8iPy9hna6Qpx0MgGyElJ5qFlaIXYf1R&index=9)
+
+[Lesson 9](https://www.youtube.com/watch?v=60pReAo0kL0&list=PLP8iPy9hna6Qpx0MgGyElJ5qFlaIXYf1R&index=10)
+
+
+
