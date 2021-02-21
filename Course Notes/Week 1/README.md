@@ -22,3 +22,5 @@ At the end of this week (which of course might take you longer or shorter than a
 [Lesson 7](https://www.youtube.com/watch?v=LLpeFe0OaiY&list=PLP8iPy9hna6Qpx0MgGyElJ5qFlaIXYf1R&index=8)
 
 [Lesson 8](https://www.youtube.com/watch?v=plSsEoRojr0&list=PLP8iPy9hna6Qpx0MgGyElJ5qFlaIXYf1R&index=9)
+
+[Lesson 9](https://www.youtube.com/watch?v=xIJJ-dcVBpQ)
