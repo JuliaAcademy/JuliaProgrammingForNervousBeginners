@@ -15,3 +15,6 @@ At the end of this week (which of course might take you longer or shorter than a
 
 [Lesson 4](https://www.youtube.com/watch?v=ZuALresPQY4&list=PLP8iPy9hna6Qpx0MgGyElJ5qFlaIXYf1R&index=5)
 
+[Lesson 5](https://www.youtube.com/watch?v=JuJGBx1EBkQ&list=PLP8iPy9hna6Qpx0MgGyElJ5qFlaIXYf1R&index=6)
+
+[Lesson 6](https://www.youtube.com/watch?v=dJ4PnBXkzXI&list=PLP8iPy9hna6Qpx0MgGyElJ5qFlaIXYf1R&index=7)
