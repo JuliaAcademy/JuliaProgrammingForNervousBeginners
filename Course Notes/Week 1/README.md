@@ -1,4 +1,4 @@
-## Week 1
+## Week 1 Notes
 
 Start of the course!
 
