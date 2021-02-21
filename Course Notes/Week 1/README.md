@@ -8,5 +8,6 @@ At the end of this week (which of course might take you longer or shorter than a
 
 ### Video links to lessons
 [Lesson 1](https://www.youtube.com/watch?v=L0TDqQCHigg&list=PLP8iPy9hna6Qpx0MgGyElJ5qFlaIXYf1R&index=2)
+
 [Lesson 2](https://www.youtube.com/watch?v=60pReAo0kL0&list=PLP8iPy9hna6Qpx0MgGyElJ5qFlaIXYf1R&index=3)
 
