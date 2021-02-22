@@ -14,4 +14,4 @@ This week has six lessons. The material is still very basic, in line with the sl
 
 [Lesson 5](https://www.youtube.com/watch?v=ULgawRM-4nU&list=PLP8iPy9hna6Qpx0MgGyElJ5qFlaIXYf1R&index=15)
 
-[Lesson 6]()
+[Lesson 6](https://www.youtube.com/watch?v=ZLACmxWXiy8&list=PLP8iPy9hna6Qpx0MgGyElJ5qFlaIXYf1R&index=16)
