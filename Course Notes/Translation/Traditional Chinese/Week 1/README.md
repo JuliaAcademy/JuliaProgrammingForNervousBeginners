@@ -2,9 +2,9 @@
 
 課程開始！
 
-這裹總共有九課 PDF，都是基本的。 我們強烈建議您按順序學習（`L1W1_MinimalWorkingExample.pdf` 是第一個）。
+這裹總共有九課 PDF，都是基本的。我們強烈建議你按順序學習（`L1W1_MinimalWorkingExample.pdf` 是第一個）。
 
-在本週結束（當然，這可能需要比一個日曆週更長或更短的時間來完成）你應該會具備 Julia REPL 的工作知識，理解編程是藉由*應用形式邏輯(applied formal logic)*做*形式語言(formal language)*的*表達性使用(expressive use)*，並且能夠開始在 Julia 中編寫代碼。
+在本週結束（當然，這可能需要比一個日曆週更長或更短的時間來完成）你應該會具備 Julia REPL 的工作知識，理解程式設計是藉由*應用形式邏輯(applied formal logic)*做*形式語言(formal language)*的*表達性使用(expressive use)*，並且能夠開始在 Julia 中編寫代碼。
 
 ### 課程影片連結
 [第 1 課](https://www.youtube.com/watch?v=L0TDqQCHigg&list=PLP8iPy9hna6Qpx0MgGyElJ5qFlaIXYf1R&index=2)

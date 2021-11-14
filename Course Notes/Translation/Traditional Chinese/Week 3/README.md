@@ -1,8 +1,8 @@
 ## 第 3 週筆記
 
-本週的五節課完成您對基本 Julia 的學習。 在結束時，您應該具備函數(function)、多重分派(multiple dispatch)、分支(branching)和迭代(iteration)的基礎知識。 這些應該為您提供編寫 Julia 代碼的絕佳起始平台。
+本週的五節課完成你對基本 Julia 的學習。在結束時，你應該具備函數(function)、多重分派(multiple dispatch)、分支(branching)和迭代(iteration)的基礎知識。這些應該為你提供編寫 Julia 代碼的絕佳起始平台。
 
-#### 當然，這是除了能夠在 Julia 中編寫有效的表達式、在純文本文件中編寫代碼(code)並運行(run)它們以及調試(debugging)代碼之外。
+#### 當然，這是除了能夠在 Julia 中編寫有效的表達式、在純文本文件中編寫代碼(code)並運行(run)它們以及除錯(debugging)代碼之外。
 
 ### 課程影片連結
 
