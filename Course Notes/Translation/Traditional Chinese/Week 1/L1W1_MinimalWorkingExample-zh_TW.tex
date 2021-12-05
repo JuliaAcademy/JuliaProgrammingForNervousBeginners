@@ -1,0 +1,115 @@
+\documentclass[]{article}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{xcolor}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage[most]{tcolorbox}
+
+% {Begin zh_TW}
+\usepackage{fontspec}   % 加這個就可以設定字體
+\usepackage{xeCJK}       % 讓中英文字體分開設置
+\setCJKmainfont{微軟正黑體} % 設定中文為系統上的字型，而英文不去更動，使用原 TeX 字型
+\XeTeXlinebreaklocale "zh"             % 這兩行一定要加，中文才能自動換行
+\XeTeXlinebreakskip = 0pt plus 1pt     % 這兩行一定要加，中文才能自動換行
+
+\defaultCJKfontfeatures{AutoFakeBold=6,AutoFakeSlant=.4} %以後不用再設定粗斜
+% {End zh_TW}
+
+\setlength{\parindent}{0em}
+\setlength{\parskip}{3ex}
+\geometry{left=3cm, top = 3cm, right = 3cm, bottom = 3cm}
+
+\newcommand{\ignore}[1]{}
+\newcommand{\codequote}[1]{\colorbox{lightgray}{\tt #1}}
+
+\begin{document}
+
+\author{}  \date{}
+\title{第 1 週，第 1 課：一個最小的可工作範例}
+\maketitle
+
+\vspace*{-2cm}
+-----------------
+
+\section*{目標}
+\begin{description}
+	\item[*] 提供一個例子以開始談論 Julia
+\end{description}
+
+-----------------
+
+在我們的第一課中，我們廣泛借用了第 0 課---關於你必須準備好來參加本課程的內容\footnote{啟動 Julia 並進入 REPL；編輯純文字檔案並將它們儲存在本課程的專用文件夾中。}。
+
+我還想提醒你課程口號：{\bf 小步走，沒有空隙，永遠有意義}。目的是讓緊張的初學者保持參與！
+
+這節課我們從零開始，所以我們不能完全遵守口號的所有部分。這個想法是首先在本課中看到編碼的實際操作，然後在第 2 課中詳細解釋。
+
+\section*{輸入 REPL 代碼}
+
+\begin{minipage}{7cm}
+打開 REPL，輸入 \colorbox{lightgray}{\tt "Hello, world"}。
+\end{minipage}
+\hspace{4em}\begin{minipage}{7cm}
+	 示範：在本課的影片中，我們精確地向你展示如何做到這一點。
+ \end{minipage}
+
+\colorbox{lightgray}{\tt "Hello, world"} 是一個字串值。Julia 有許多其他類型的值：我們將看到其中的一些，例如數字值和字符值\footnote{即，作為字符的值。}。
+
+\begin{minipage}{7cm}
+現在輸入 \colorbox{lightgray}{\tt mystringexample1 = "Hello, world"}。
+\end{minipage}
+\hspace{4em} \begin{minipage}{7cm}
+這稱為\emph{指派值到變數}。
+\end{minipage}
+
+重要：\colorbox{lightgray}{\tt =} 符號將右側的字串值綁定到左側的變數名稱。這在更改了電腦記憶體的三個地方：
+\begin{description}
+	\item[$\bullet$] 名稱 \colorbox{lightgray}{\tt mystringexample1} 被放入所謂的命名空間\footnote{實際上，當 Julia 運行時，它可以有多個命名空間，但這是我們在本課程中不涉及的進階主題。一旦名稱位於命名空間中，它就會一直存在，直到你關閉整個命名空間。關閉 Julia 會話也會關閉所有命名空間。}。
+  \item[$\bullet$] 字串值 \colorbox{lightgray}{\tt "Hello, world"} 被創建\footnote{ 與上面的分開但方式相同。}。
+  \item[$\bullet$] 左側名稱和右側值之間的 \colorbox{lightgray}{\tt =} 符號創建了名稱和值之間的綁定。
+ \item[$\bullet$] 透過將字串值綁定到名稱，Julia 將字串值儲存在你的電腦記憶體中，以便以後需要時可以使用該值。
+\end{description}
+
+\begin{minipage}{7cm}
+輸入 \colorbox{lightgray}{\tt println(mystringexample1)} 。
+\end{minipage}
+\hspace{4em} \begin{minipage}{7cm}
+	示範：\codequote{println} 是內建函數
+\end{minipage}
+
+當這一行運行時會發生什麼\footnote{人們也說：``當這一行被執行時''，以及``當這一行被評估時''。}:\\
+函數 \colorbox{lightgray}{\tt println()} 接收變數名稱 \colorbox{lightgray}{\tt mystringexample1}，獲取它的值（它是一個字串），重新格式化它，然後在螢幕上顯示字串並接上空行。
+
+函數在 Julia 中非常非常重要。許多是內建的，例如 \colorbox{lightgray}{\tt println()}，但 Julia 程式還創建了更多。在本課程中，你將學到很多關於 Julia 函數的知識！
+
+\section*{創建和運行代碼檔案}
+
+\begin{minipage}[t]{10.5cm}
+	最後，創建{\tt myfirstfile.jl}，作為純文字檔案（NB!），包含我們上面使用的兩行代碼，將其儲存在你的課程文件夾\footnote{即創建一個 Julia 代碼檔案---此類檔案是第 0 課的主題之一。}。確保你的課程文件夾是你的工作目錄\footnote{使用 \colorbox{lightgray}{\tt pwd()} 來檢查你的工作目錄是什麼，並使用 \colorbox{lightgray}{\tt cd()} 來更改它。}，然後輸入 \colorbox{lightgray}{\tt include("myfirstfile.jl")}
+	\end{minipage}
+\hspace{4em} \begin{minipage}[t]{4.5cm}
+示範：在影片中，我們展示了結果與我們之前使用的 REPL 代碼相同。
+\end{minipage}
+
+恭喜！你的第一個 Julia 程式！編碼就是這麼簡單。
+
+\section*{Review and summary }
+
+\begin{description}
+	\item[*] \colorbox{lightgray}{\tt "Hello, world"} 是一個字串值。
+	\item[*] \colorbox{lightgray}{\tt println()} 是一個函數。
+	\item[*] \colorbox{lightgray}{\tt mystringexample1} 是一個變數名稱。
+	\item[*] \colorbox{lightgray}{\tt =} 是指派：右側的值綁定到左側的名稱。
+	\item[*] 函數 \colorbox{lightgray}{\tt include()} 運行它從 Julia 代碼檔案接收的代碼行。
+	\item[*] Julia 代碼檔案是副檔名為 {\tt .jl} 的純文字檔案
+\end{description}
+
+我們在本課中所做的，隨著課程的進行我們將一遍遍地做：一些新想法、一些範例（你可以隨著課程進行嘗試）以及一些供你編寫和執行的代碼檔案。
+
+請在第 1 週第 2 課之前做測驗、練習和自評作業。他們很短！在繼續之前最好先做這些。
+
+\end{document}
