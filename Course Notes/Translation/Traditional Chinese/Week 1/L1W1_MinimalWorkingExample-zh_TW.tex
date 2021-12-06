@@ -29,7 +29,7 @@
 \begin{document}
 
 \author{}  \date{}
-\title{第 1 週，第 1 課：一個最小的可工作範例}
+\title{第 1 週，第 1 課：一個最小的工作範例}
 \maketitle
 
 \vspace*{-2cm}
@@ -66,9 +66,9 @@
 這稱為\emph{指派值到變數}。
 \end{minipage}
 
-重要：\colorbox{lightgray}{\tt =} 符號將右側的字串值綁定到左側的變數名稱。這在更改了電腦記憶體的三個地方：
+重要：\colorbox{lightgray}{\tt =} 符號將右側的字串值綁定到左側的變數名稱。這在三個地方更改了你的電腦的記憶體：
 \begin{description}
-	\item[$\bullet$] 名稱 \colorbox{lightgray}{\tt mystringexample1} 被放入所謂的命名空間\footnote{實際上，當 Julia 運行時，它可以有多個命名空間，但這是我們在本課程中不涉及的進階主題。一旦名稱位於命名空間中，它就會一直存在，直到你關閉整個命名空間。關閉 Julia 會話也會關閉所有命名空間。}。
+	\item[$\bullet$] 名稱 \colorbox{lightgray}{\tt mystringexample1} 被放入所謂的命名空間\footnote{實際上，當 Julia 運行時，它可以有多個命名空間，但這是我們在本課程中會不涉及的進階主題。一旦名稱位於命名空間中，它就會一直存在，直到你關閉整個命名空間。關閉 Julia 會話也會關閉所有命名空間。}。
   \item[$\bullet$] 字串值 \colorbox{lightgray}{\tt "Hello, world"} 被創建\footnote{ 與上面的分開但方式相同。}。
   \item[$\bullet$] 左側名稱和右側值之間的 \colorbox{lightgray}{\tt =} 符號創建了名稱和值之間的綁定。
  \item[$\bullet$] 透過將字串值綁定到名稱，Julia 將字串值儲存在你的電腦記憶體中，以便以後需要時可以使用該值。
@@ -89,7 +89,7 @@
 \section*{創建和運行代碼檔案}
 
 \begin{minipage}[t]{10.5cm}
-	最後，創建{\tt myfirstfile.jl}，作為純文字檔案（NB!），包含我們上面使用的兩行代碼，將其儲存在你的課程文件夾\footnote{即創建一個 Julia 代碼檔案---此類檔案是第 0 課的主題之一。}。確保你的課程文件夾是你的工作目錄\footnote{使用 \colorbox{lightgray}{\tt pwd()} 來檢查你的工作目錄是什麼，並使用 \colorbox{lightgray}{\tt cd()} 來更改它。}，然後輸入 \colorbox{lightgray}{\tt include("myfirstfile.jl")}
+	最後，創建{\tt myfirstfile.jl}，作為純文字檔案（NB!），確切地包含我們上面使用的兩行代碼，將其儲存在你的課程文件夾\footnote{即創建一個 Julia 代碼檔案---此類檔案是第 0 課的主題之一。}。確保你的課程文件夾是你的工作目錄\footnote{使用 \colorbox{lightgray}{\tt pwd()} 來檢查你的工作目錄是什麼，並使用 \colorbox{lightgray}{\tt cd()} 來更改它。}，然後輸入 \colorbox{lightgray}{\tt include("myfirstfile.jl")}
 	\end{minipage}
 \hspace{4em} \begin{minipage}[t]{4.5cm}
 示範：在影片中，我們展示了結果與我們之前使用的 REPL 代碼相同。
@@ -97,7 +97,7 @@
 
 恭喜！你的第一個 Julia 程式！編碼就是這麼簡單。
 
-\section*{Review and summary }
+\section*{回顧與總結}
 
 \begin{description}
 	\item[*] \colorbox{lightgray}{\tt "Hello, world"} 是一個字串值。
