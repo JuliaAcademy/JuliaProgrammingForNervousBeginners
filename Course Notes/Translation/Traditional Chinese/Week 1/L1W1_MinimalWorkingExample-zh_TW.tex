@@ -69,8 +69,8 @@
 重要：\colorbox{lightgray}{\tt =} 符號將右側的字串值綁定到左側的變數名稱。這在三個地方更改了你的電腦的記憶體：
 \begin{description}
 	\item[$\bullet$] 名稱 \colorbox{lightgray}{\tt mystringexample1} 被放入所謂的命名空間\footnote{實際上，當 Julia 運行時，它可以有多個命名空間，但這是我們在本課程中會不涉及的進階主題。一旦名稱位於命名空間中，它就會一直存在，直到你關閉整個命名空間。關閉 Julia 會話也會關閉所有命名空間。}。
-  \item[$\bullet$] 字串值 \colorbox{lightgray}{\tt "Hello, world"} 被創建\footnote{ 與上面的分開但方式相同。}。
-  \item[$\bullet$] 左側名稱和右側值之間的 \colorbox{lightgray}{\tt =} 符號創建了名稱和值之間的綁定。
+  \item[$\bullet$] 字串值 \colorbox{lightgray}{\tt "Hello, world"} 被建立\footnote{ 與上面的分開但方式相同。}。
+  \item[$\bullet$] 左側名稱和右側值之間的 \colorbox{lightgray}{\tt =} 符號建立了名稱和值之間的綁定。
  \item[$\bullet$] 透過將字串值綁定到名稱，Julia 將字串值儲存在你的電腦記憶體中，以便以後需要時可以使用該值。
 \end{description}
 
@@ -84,12 +84,12 @@
 當這一行運行時會發生什麼\footnote{人們也說：``當這一行被執行時''，以及``當這一行被評估時''。}:\\
 函數 \colorbox{lightgray}{\tt println()} 接收變數名稱 \colorbox{lightgray}{\tt mystringexample1}，獲取它的值（它是一個字串），重新格式化它，然後在螢幕上顯示字串並接上空行。
 
-函數在 Julia 中非常非常重要。許多是內建的，例如 \colorbox{lightgray}{\tt println()}，但 Julia 程式還創建了更多。在本課程中，你將學到很多關於 Julia 函數的知識！
+函數在 Julia 中非常非常重要。許多是內建的，例如 \colorbox{lightgray}{\tt println()}，但 Julia 程式還建立了更多。在本課程中，你將學到很多關於 Julia 函數的知識！
 
-\section*{創建和運行代碼檔案}
+\section*{建立和運行代碼檔案}
 
 \begin{minipage}[t]{10.5cm}
-	最後，創建{\tt myfirstfile.jl}，作為純文字檔案（NB!），確切地包含我們上面使用的兩行代碼，將其儲存在你的課程文件夾\footnote{即創建一個 Julia 代碼檔案---此類檔案是第 0 課的主題之一。}。確保你的課程文件夾是你的工作目錄\footnote{使用 \colorbox{lightgray}{\tt pwd()} 來檢查你的工作目錄是什麼，並使用 \colorbox{lightgray}{\tt cd()} 來更改它。}，然後輸入 \colorbox{lightgray}{\tt include("myfirstfile.jl")}
+	最後，建立{\tt myfirstfile.jl}，作為純文字檔案（NB!），確切地包含我們上面使用的兩行代碼，將其儲存在你的課程文件夾\footnote{即建立一個 Julia 代碼檔案---此類檔案是第 0 課的主題之一。}。確保你的課程文件夾是你的工作目錄\footnote{使用 \colorbox{lightgray}{\tt pwd()} 來檢查你的工作目錄是什麼，並使用 \colorbox{lightgray}{\tt cd()} 來更改它。}，然後輸入 \colorbox{lightgray}{\tt include("myfirstfile.jl")}
 	\end{minipage}
 \hspace{4em} \begin{minipage}[t]{4.5cm}
 示範：在影片中，我們展示了結果與我們之前使用的 REPL 代碼相同。
