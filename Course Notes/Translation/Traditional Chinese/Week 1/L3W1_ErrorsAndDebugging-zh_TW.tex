@@ -9,6 +9,9 @@
 \usepackage{geometry}
 \usepackage[most]{tcolorbox}
 
+% {Begin zh_TW}
+% Credit: XeLaTex 中文 · GitHub
+% https://gist.github.com/iamalbert/1b87a5349f7e860bfe33
 \usepackage{fontspec}   % 加這個就可以設定字體
 \usepackage{xeCJK}       % 讓中英文字體分開設置
 \setCJKmainfont{微軟正黑體} % 設定中文為系統上的字型，而英文不去更動，使用原 TeX 字型
@@ -16,6 +19,7 @@
 \XeTeXlinebreakskip = 0pt plus 1pt     % 這兩行一定要加，中文才能自動換行
 
 \defaultCJKfontfeatures{AutoFakeBold=6,AutoFakeSlant=.4} %以後不用再設定粗斜
+% {End zh_TW}
 
 \setlength{\parindent}{0em}
 \setlength{\parskip}{3ex}
