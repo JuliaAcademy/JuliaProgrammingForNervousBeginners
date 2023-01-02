@@ -96,7 +96,7 @@
 
 {\color{gray}That is entirely serious: Julia, as I hope you will see below, is as rich and expressive in its own right as any natural language, such as Spanish, Mandarin and !Kung. Apart from implementing formal logic, there is no real difference with other languages. You could use it to write advertisements, love letters, novels, whatever! But mostly, since the formal logic can be implemented on a machine,  you use it to write programs that make machines do things you want them to do.}
 \\*
-{這完全是認真的：Julia, 就如我希望你能在如下看到，它本身就是豐富和有表現力的，就像任何自然語言，例如西班牙語，普通話和{ }!Kung 語, 除了實作正式邏輯外，和其他語言其實沒有真正的區別。你可以使用它來寫廣告，情書，小說等等！但是，大多數情況下，由於可以在電腦上實現形式邏輯，因此你可以使用它編寫讓機器做你想要它們做的事情的程式。}
+{這完全是認真的：Julia, 就如我希望你能在如下看到的，它本身就是豐富和有表現力的，就像任何自然語言，例如西班牙語，普通話和{ }!Kung 語, 除了實作正式邏輯外，和其他語言其實沒有真正的區別。你可以使用它來寫廣告，情書，小說等等！但是，大多數情況下，由於可以在電腦上實現形式邏輯，因此你可以使用它編寫讓機器做你想要它們做的事情的程式。}
 
 \section*{{\color{gray}Logic: the study of correct forms of reasoning} 
 \\*
@@ -122,13 +122,13 @@
 \\*
 {形式邏輯：使用符號公式來研究和應用邏輯}}
 
-{\color{gray}Formal logic is simple to define: it uses symbols and formulae to study reasoning. This is fairly new discipline, it started only about 6 generations ago\footnote{See \emph{Logicomix} by Doxiadis and Papadimitrou for an excellent and very human account of some of the most important episodes in the early history of formal logic.}.}
+{\color{gray}Formal logic is simple to define: it uses symbols and formulae to study reasoning. This is fairly new discipline, it started only about 6 generations ago\footnote{{\color{gray}See \emph{Logicomix} by Doxiadis and Papadimitrou for an excellent and very human account of some of the most important episodes in the early history of formal logic.}}.}
 \\*
 {形式邏輯很容易定義：它使用符號和公式來研究推理。這是相當新的學科，它僅開始於大約 6 個世代以前\footnote{參見{ }Doxiadis{ }和{ }Papadimitrou{ }的{\bfseries{Logicomix}}，以了解形式邏輯早期歷史上一些最重要情節的出色和非常人性化的話題。}。}
 
-{\color{gray}The aim of making logic formal was absolute precision in reasoning and absolute certainty about its correctness. It aims at this by using rules similar to the rules of algebra\footnote{This goal has been considerably refined, because it was shown that a system cannot be consistent as well as complete and applicable to all of mathematics. For computers, it is not necessary to produce \emph{all} correct reasoning---it is enough to ensure that all the reasoning in your computer is completely correct.}. By doing so, it reduces logical analysis to calculations which can be independently checked. In other words, it removes the need for intuition and insight from logical analysis.}
+{\color{gray}The aim of making logic formal was absolute precision in reasoning and absolute certainty about its correctness. It aims at this by using rules similar to the rules of algebra\footnote{{\color{gray}This goal has been considerably refined, because it was shown that a system cannot be consistent as well as complete and applicable to all of mathematics. For computers, it is not necessary to produce \emph{all} correct reasoning---it is enough to ensure that all the reasoning in your computer is completely correct.}}. By doing so, it reduces logical analysis to calculations which can be independently checked. In other words, it removes the need for intuition and insight from logical analysis.}
 \\*
-{製作邏輯形式的目的是推理的絕對精確性和關於其正確性的絕對確定性。它透過使用類似於代數規則的規則來實現這一目標\footnote{這個目標已經得到了很大的改進，因為它顯示系統無法一致，並且都適用於所有數學。對於電腦，沒有必要產生{\bfseries{所有}}正確的推理---足以確保電腦中的所有推理都是完全正確的。}。透過這樣做，它將邏輯分析減少到成為可以獨立檢查的計算。換句話說，它從邏輯分析中消除了對直覺和見解的需求。}
+{製作邏輯形式的目的是推理的絕對精確性和關於其正確性的絕對確定性。它透過使用類似於代數規則的規則來實現這一目標\footnote{這個目標已經得到了很大的改進，因為它顯示系統無法一致且完整到適用於所有的數學。對於電腦，並不需要產生{\bfseries{所有}}正確的推理---它已足以確保電腦中的所有推理都是完全正確的。}。透過這樣做，它將邏輯分析減少到成為可以獨立檢查的計算。換句話說，它從邏輯分析中消除了對直覺和見解的需求。}
 
 {\color{gray}Formal logic has the strange property that something obvious and something  baffling can sit side by side. For an example of the obvious, see the NOT, AND and OR truth tables below. Unfortunately, we you'll have to take our word {\color{cyan}for for} the ease with which baffling things come up quite unexpectedly (or read \emph{Logicomix}, in particular pages 164 to 168, about paradoxes).}
 \\*
@@ -139,7 +139,7 @@
 {{\tt NOT}, {\tt AND}, {\tt OR}的真值表}
 }
 
-{\color{gray}In two-valued logic, which is by far the most common type of formal logic and also what Julia uses, there are two constant values, we denote them with {\tt true} and {\tt false} \footnote{In Julia code they are the values \codequote{true} and \codequote{false}.}. A statement is then something that is either {\tt true} or {\tt false}. As noted above, for a formal logic we need a symbol to stand for a statement, for example we can use $P$ to stand for the statement ``The earth spins on its axis" and $Q$ for the statement ``The earth is round"\footnote{You may disagree with either of these; the first is much clearer than the second. Of course the earth is not perfectly round, but for practical purposes the imperfections are negligible, so it is perfectly reasonable to say that $ Q $ is true. This sort of thing is why ordinary language and everyday reasoning are very hard to represent in a formal language.}.}
+{\color{gray}In two-valued logic, which is by far the most common type of formal logic and also what Julia uses, there are two constant values, we denote them with {\tt true} and {\tt false} \footnote{{\color{gray}In Julia code they are the values \codequote{true} and \codequote{false}.}}. A statement is then something that is either {\tt true} or {\tt false}. As noted above, for a formal logic we need a symbol to stand for a statement, for example we can use $P$ to stand for the statement ``The earth spins on its axis" and $Q$ for the statement ``The earth is round"\footnote{{\color{gray}You may disagree with either of these; the first is much clearer than the second. Of course the earth is not perfectly round, but for practical purposes the imperfections are negligible, so it is perfectly reasonable to say that $ Q $ is true. This sort of thing is why ordinary language and everyday reasoning are very hard to represent in a formal language.}}.}
 \\
 {在兩值邏輯中，這是迄今為止最常見的形式邏輯類型，也為 Julia 所使用，有兩個常數值，我們用{\tt true}和{\tt false}表示它們\footnote{在 Julia 代碼中，它們是值\codequote{true}和\codequote{false}。}. 一個陳述則會是真({\tt true})或假({\tt false})。如上所述，對於形式邏輯，我們需要一個符號來代表陳述，例如，我們可以使用 $P$ 來代表陳述「地球在其軸上旋轉」及 $Q$ 用於陳述「地球是圓形的」\footnote{你可能會不同意其中的任何一個。第一個比第二個要清楚得多。當然，地球不是完全圓形的，但是出於務實目的，這種不完美是可以忽略不計的，因此說$ Q $是正確的，這是完全合理的。這種事情就是為什麼普通語言和日常推理很難用形式語言表示的原因。}。}
 
@@ -194,7 +194,7 @@ $ P $ & $ \neg P $ \\
 
 {\color{gray}Because they may change truth values, {\tt NOT}, {\tt AND} and {\tt OR} are called operators. To be more specific, they are logical operators.}
 \\*
-{因為他們可能會修改真值，所以{\tt NOT}、{\tt AND}和{\tt OR}被稱為運算子。更具體地說，他們是邏輯運運算子。}
+{因為他們可能會修改真值，所以{\tt NOT}、{\tt AND}和{\tt OR}被稱為運算子。更具體地說，他們是邏輯運算子。}
 
 {\color{gray}The symbols we've seen are standard for research papers in formal logic, but not in progamming. In Julia, the symbol for {\tt NOT} is \codequote{!}, {\tt AND} is \codequote{\&\&} and {\tt OR} is \codequote{||} . We'll see these again later; the fact that we need two characters make one symbol is of no significance.}
 \\*
@@ -204,7 +204,7 @@ $ P $ & $ \neg P $ \\
 \\*
 {為什麼形式邏輯需要形式語言}}
 
-{\color{gray}For formal logic to work, every expression must consist of symbols. In fact, it must consist of symbols that formal logic recognises---in exactly the same way that every expression in Julia must consist of symbols that Julia recognises\footnote{Introductions to formal logic have to solve a bootstrap problem: until you know the symbols, you can't do formal logic. They tend to start as we did here: by translating some very simple sentences into symbols. This has the effect of making the very simple seem complicated. Weird, but very hard to avoid.}.}
+{\color{gray}For formal logic to work, every expression must consist of symbols. In fact, it must consist of symbols that formal logic recognises---in exactly the same way that every expression in Julia must consist of symbols that Julia recognises\footnote{{\color{gray}Introductions to formal logic have to solve a bootstrap problem: until you know the symbols, you can't do formal logic. They tend to start as we did here: by translating some very simple sentences into symbols. This has the effect of making the very simple seem complicated. Weird, but very hard to avoid.}}.}
 \\*
 {為了讓形式邏輯運作，每個表示式都必須由符號組成。實際上，它必須由形式邏輯認可的符號組成---與 Julia 中的每個表示式完全一樣同時也為 Julia 所認可\footnote{對形式邏輯的介紹必須解決一個前導問題：在您知道符號之前，您無法進行正式邏輯。 它們傾向於像我們在這裡一樣開始：將一些非常簡單的句子轉換為符號。這會有讓非常簡單的反而顯得複雜的效果。很奇怪，但是很難避免。}。}
 
@@ -214,7 +214,7 @@ $ P $ & $ \neg P $ \\
 {一種形式的語言可以準確地說出哪些符號和表示式在該語言中有效。它必須超越我們上面看到的三個運算子。也就是說，為了表達某些內容，必須使用可以承載真值的符號。上面，我們為此使用了$ P $和$ Q $，但這僅是出於方便。有更好的一些方法，Julia 就是其中之一。
 }
 
-{\color{gray}Let's repeat that: Julia is a formal language\footnote{In fact, every computer language is a formal language.}. It uses characters to form values and names, and then it uses delimiters and operators to form the names and values into expressions. The rules of the formal logic that governs Julia then determine whether the expression is valid or not.}
+{\color{gray}Let's repeat that: Julia is a formal language\footnote{{\color{gray}In fact, every computer language is a formal language.}}. It uses characters to form values and names, and then it uses delimiters and operators to form the names and values into expressions. The rules of the formal logic that governs Julia then determine whether the expression is valid or not.}
 \\*
 {讓我們重複一遍： Julia 是一種形式語言\footnote{實際上，每種電腦語言都是形式語言。}。它使用字元組成值和名稱，然後使用定界符和運算子將名稱和值組成表示式。這些形式邏輯規則主宰著 Julia ，用以決定表示式是否有效。}
 
@@ -234,11 +234,11 @@ $ P $ & $ \neg P $ \\
 \\*
 {寫一首詩也是生產過程的結果：你新增一個又一個單詞，一行又一行，並且對你的詩也沒有設定的長度限制。}
 
-{\color{gray}But a formal language is not just generative: because the rules are  completely fixed and explicit, they can be mechanised. They can be made to be part of a machine\footnote{The earliest programmable computer design was by Charles Babbage over 150 years ago, for a machine to be driven by steam.}; in such a machine you have a way to represent the values {\tt true} and {\tt false}. Then when you apply {\tt not} to a {\tt true} you get the value {\tt false}, and so on. Such a machine can produce and evaluate all the expressions of a formal language and its the formal logic.}
+{\color{gray}But a formal language is not just generative: because the rules are  completely fixed and explicit, they can be mechanised. They can be made to be part of a machine\footnote{{\color{gray}The earliest programmable computer design was by Charles Babbage over 150 years ago, for a machine to be driven by steam.}}; in such a machine you have a way to represent the values {\tt true} and {\tt false}. Then when you apply {\tt not} to a {\tt true} you get the value {\tt false}, and so on. Such a machine can produce and evaluate all the expressions of a formal language and its the formal logic.}
 \\*
 {但是形式語言不僅是生產的：由於規則是完全固定和明確的，因此可以機械化。他們可以成為機器的一部分\footnote{最早可程式設計的電腦設計是由 150 年前的查爾斯·巴巴奇（Charles Babbage）設計的，是一台由蒸汽驅動的機器。}; 在這樣的電腦中，你有一種表示值{\tt true}和{\tt false}的方法。然後，當你將{\tt not}應用於 {\tt true}時，你將獲得值{\tt false}，依此類推。這樣的機器可以生產和評估形式語言及其形式邏輯的所有表示式。}
 
-{\color{gray}At the level of a microchip, all modern electronic digital computers contain many millions of tiny electrical circuits that are nothing but electronic versions of {\tt NOT} , {\tt AND}, {\tt OR}\footnote{Of course, they contain much more than just these operators, but this is not a course in computer design.}. Formal logic is what makes a computer possible; all modern computers are applications of formal logic.
+{\color{gray}At the level of a microchip, all modern electronic digital computers contain many millions of tiny electrical circuits that are nothing but electronic versions of {\tt NOT} , {\tt AND}, {\tt OR}\footnote{{\color{gray}Of course, they contain much more than just these operators, but this is not a course in computer design.}}. Formal logic is what makes a computer possible; all modern computers are applications of formal logic.
 }
 \\*
 {在晶片的層級上，所有現代的電子數位電腦都包含數百萬個微型電路，這些電路不過是{\tt not}、{\tt and}、{\tt or} 的電子版本\footnote{當然，它們包含不僅僅是這些運算子，但這不是電腦設計的課程。}。形式邏輯是使電腦成為可能的原因。所有現代電腦都是形式邏輯的應用。}
@@ -288,7 +288,7 @@ $ P $ & $ \neg P $ \\
 \\*
 {請注意，某些用 AdHoc1 寫成的表示式看起來像英語的句子，例如"that is it"和"that is it i think"。但是奇怪的是，"i think that is it"\emph{不}是在 AdHoc1 中的有效表示式，因為它違反了規則3。可能會有一些有趣的表示式，例如"the think that i think that i think that i that think thinks"。同時著名的悖論"this sentence is false"也是有效的 AdHoc1。}
 
-{\color{gray}However, by reading that last sentence as a paradox we are reading it as English. This is not part of AdHoc1, and requires an extension that applies AdHoc1 expressions to English. But most AdHoc1 expressions are not English, for example "ticillllll eee", so this extension is very informal\footnote{Actually, no formal language exists that produces all the valid sentences in English and only those sentences. This is partly because people cannot agree on what all the valid sentences in English are.} and relies a good deal on us as people who can read English.}
+{\color{gray}However, by reading that last sentence as a paradox we are reading it as English. This is not part of AdHoc1, and requires an extension that applies AdHoc1 expressions to English. But most AdHoc1 expressions are not English, for example "ticillllll eee", so this extension is very informal\footnote{{\color{gray}Actually, no formal language exists that produces all the valid sentences in English and only those sentences. This is partly because people cannot agree on what all the valid sentences in English are.}} and relies a good deal on us as people who can read English.}
 \\*
 {無論如何，透過將最後一句話作為悖論，我們將其解讀為英語。這不是 AdHoc1 的一部分，並且需要將 AdHoc1 表示式擴展以應用於英語。但是大多數AdHoc1表示式不是英語，例如" ticillllll eee"，因此此擴展是非常不正式的\footnote{實際上，沒有形式語言可以用英語產生所有有效的句子且全部僅有這些句子。部分的原因是因為人們無法就英語的所有有效句子達成共識。}且很依賴可以閱讀英語的我們。}
 
@@ -330,7 +330,7 @@ $ P $ & $ \neg P $ \\
 \\*
 {體現在精美陶器中的真理與美麗詩歌中的真理不同，電腦程式中捕獲的真理遠非這兩者。但是最後，這三種形式都使用媒介的表達力來實現真理。}
 
-{\color{gray}Programmers are, in that sense, like artists and poets\footnote{But also like storytellers, stand-up comedians, composers and basket-weavers. All of these aim at certain effects which in some sense set a standard of truth. }.}
+{\color{gray}Programmers are, in that sense, like artists and poets\footnote{{\color{gray}But also like storytellers, stand-up comedians, composers and basket-weavers. All of these aim at certain effects which in some sense set a standard of truth. }}.}
 \\*
 {從這個意義上來說，程式設計師像藝術家和詩人一樣\footnote{但也像講故事的人，站立喜劇演員，作曲家和籃子編織師一樣。所有這些目的都是針對某種意義上樹立真理標準的某些效果。}.}
 
